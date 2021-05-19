@@ -1,0 +1,47 @@
+title: Abbot’s Electric Dreams
+subtitle: Tips, ideas, and information on getting the most from Abbot, your ChatOps assistant.
+author: A Serious Business, Inc.
+
+email: support@aseriousbusiness.com
+description: > # this means to ignore newlines until the next setting.
+  A blog about Abbot, your scriptable ChatOps assistant. Abbot is the easiest 
+  way to get started with ChatOps.
+repository: aseriousbiz/blog
+
+# Google Analytics
+google_analytics: GTM-PMQPWV8
+
+# contact
+contact:
+  email: support@aseriousbusiness.com
+
+# Homepage
+show_excerpts: true  # set to true to show excerpts on the homepage, otherwise full posts are shown
+
+#
+# Jekyll Settings
+#
+permalink: /archive/:year/:month/:day/:title/
+paginate: 20
+page_group_size: 5 # number of pages to group by in the pagination.
+paginate_path: "/archive/page/:num"
+
+# Build settings
+markdown: kramdown
+kramdown:
+  hard_wrap: false
+remote_theme: aseriousbiz/blog-theme@main
+
+exclude: [README.md CODE_OF_CONDUCT.md script .gitattributes .gitignore keybase.txt RakeFile]
+keep_files: [robots.txt favicon.ico]
+incremental: true
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-github-metadata
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-include-cache

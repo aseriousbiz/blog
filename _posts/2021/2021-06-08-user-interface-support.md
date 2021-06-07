@@ -16,30 +16,39 @@ In this blog post, we build on the documentation to build a fun little Bot or No
 
 ## The pieces
 
-There are a few pieces to building such a skill. The first is having a list of candidate images. In this case, the list is hard-coded. But it wouldn't be hard to support adding candidate images and storing them in Abbot's brain (`Bot.Brain` in C# and `bot.brain` in JavaScript and Python).
+There are a few pieces to building such a skill. The first is having a list of candidate images. In this case, the list is hard-coded. But it wouldn't be difficult to support adding candidate images and storing them in Abbot's brain (`Bot.Brain` in C# and `bot.brain` in JavaScript and Python).
 
-There's two branches the skill needs to handle. The first is when the skill is first called. In that branch, the skill calls the `Bot.ReplyWithButtons` (or `bot.replyWithButtons` for JavaScript and `bot.reply_with_buttons` for Python) method to present a hero card with a random candidate image and two buttons.
+There's two cases the skill needs to handle. The first is when the skill is first called. In that case, the skill calls the `Bot.ReplyWithButtons` (or `bot.replyWithButtons` for JavaScript and `bot.reply_with_buttons` for Python) method to present a hero card with a random candidate image and two buttons (one for a "Yes" response and one for a "No" response).
 
-The second branch handles the button click. For that, the skill checks if `Bot.IsInteraction` (or `bot.isInteraction` for JavaScript or `bot.is_interaction` for Python) is true. It's `true` if the skill is being called from a button click. In the future, we plan to add support for more types of UI interactions, hence the name is `IsInteraction` and not `IsButtonClick`.
+The second case handles the button click. For that, the skill checks if `Bot.IsInteraction` (or `bot.isInteraction` for JavaScript or `bot.is_interaction` for Python) is true. It's `true` if the skill is being called from a button click. In the future, we plan to add support for more types of UI interactions, hence the name is `IsInteraction` and not `IsButtonClick`.
 
-When a button is clicked, the skill is called with the Button's value as the arguments to the skill. Here's the arguments set up in Python.
+When a button is clicked, the skill is called with the Button's value passed as the arguments to the skill. Here's the arguments set up in Python.
 
 ```python
     yes_answer = "yes " + ("correct" if is_bot else "wrong")
     no_answer = "no " + ("correct" if not is_bot else "wrong")
 ```
 
-The value of each button passes two arguments back to the skill. The first is the answer that the user selected (either "yes" or "no"). The second argument is whether that answer is "correct" or "wrong". The button value is never presented to the user, so we're not revealing anything here.
+In this example, `yes_answer` is the value of the "Yes" button and `no_answer` is the value of the "No button". This value is passed back to the skill as the argument to the skill when the button is clicked. Each value consists of two words. The first word is the answer the user selected (either "yes" or "no"). The second word is whether that answer is "correct" or "wrong".
 
-When the user clicks on a button, those two arguments are passed back to the skill (along with `IsInteraction=true`) and the skill reports the result and presents a new candidate.
+Let's illustrate with a concrete example. Suppose the current candidate is a bot. In that case:
 
-Note that there's room for a lot of improvements left as an exercise to the reader. Here's a few that come to mind:
+1. `yes_answer` = `"yes correct"`
+2. `no_answer` = `"no wrong"`
+
+If the user clicks the "Yes" button, then the skill is called with the arguments `yes correct` (as if the user typed those arguments to the skill). The skill can then retrieve the two words by indexing into the `Bot.Arguments` (C#), `bot.tokenizedArguments` (JavaScript), or `bot.tokenized_arguments` (Python) collection.
+
+But what if someone tries to cheat typing the arguments to the skill like so: `@abbot bot-or-not yes correct`? Is there a way to distinguish that from someone clicking the button in chat? Yes! There is.
+
+When someone clicks a button, the `Bot.IsInteraction` (C#), `bot.isInteraction` (JavaScript), or `bot.is_interaction` (Python) property is set to true. This allows skill authors to distinguish between the skill being due to a button click or from typing in chat. In this example, the skill reports on whether the answer is correct or not and then presents another candidate.
+
+There's room for a lot of improvement to this skill. Here's a few that come to mind:
 
 1. Store the candidates in the brain.
 2. Do not show the same candidate twice. The game ends when all candidates have been shown.
 3. Tracking who clicked the button so a user may only click a button once.
 
-I didn't do these because it would make the sample more complicated than it needs to be. After all, I implemented it three times!
+If you implement these, let us know! This is a good way to learn about the capabilities of an Abbot skill.
 
 ## Skill Code Listings
 

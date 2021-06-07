@@ -12,7 +12,7 @@ Abbot skills get a lot done despite being text-based; but sometimes a human just
 
 Be sure to read the [documentation for the feature](https://docs.ab.bot/guides/ui-elements/?tabs=tabid-cs).
 
-In this blog post, we build on the documentation to build a fun little Bot or Not skill. The skill is a game where the user is presented with an image and clicks a button to indicate whether the image is a bot or not.
+In this blog post, we build on the documentation to build a fun little "Bot or Not" skill. The skill is a game where the user is presented with an image and clicks a button to indicate whether the image is a bot or not.
 
 ## The pieces
 

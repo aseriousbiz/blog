@@ -115,7 +115,6 @@ public class Candidate {
 ### Bot or Not JavaScript
 
 ```js
-module.exports.BotOrNotJs = (async () => { // We modularize your code in order to run it.
 
   const _ = require('lodash');
   var candidates = getCandidates();

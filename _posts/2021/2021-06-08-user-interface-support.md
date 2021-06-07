@@ -10,8 +10,6 @@ author:
 
 Abbot skills get a lot done despite being text-based; but sometimes a human just wants to click a button. With the latest release of Abbot (`0.15.0-beta`), Abbot supports user interface elements such as buttons. This enables skill authors to create approval workflows, simple games, and more within chat.
 
-Be sure to read the [documentation for the feature](https://docs.ab.bot/guides/ui-elements/?tabs=tabid-cs).
-
 In this blog post, we build on the documentation to build a fun little "Bot or Not" skill. The skill is a game where the user is presented with an image and clicks a button to indicate whether the image is a bot or not.
 
 ## The pieces
@@ -215,3 +213,5 @@ else:
 This sample is a fun toy, but it demonstrates how this feature could be used in important use cases. Combine this with [Triggers](https://docs.ab.bot/guides/triggers/) and you could easily build out a workflow approval system initiated by external systems.
 
 Buttons work both in Teams and Slack, but not in Discord as Discord doesn't yet support UI elements. In the future we hope to add more UI element support.
+
+Be sure to read the [documentation for the feature](https://docs.ab.bot/guides/ui-elements/?tabs=tabid-cs).

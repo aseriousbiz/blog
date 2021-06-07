@@ -8,7 +8,7 @@ author:
     name: haacked
 ---
 
-Abbot skills get a lot done despite being text based. But sometimes a human just wants to click a button. With the latest release of Abbot (`0.15.0-beta`), Abbot supports user interface elements such as buttons. This enables skill authors to create approval workflows, simple games, etc. within chat.
+Abbot skills get a lot done despite being text-based; but sometimes a human just wants to click a button. With the latest release of Abbot (`0.15.0-beta`), Abbot supports user interface elements such as buttons. This enables skill authors to create approval workflows, simple games, and more within chat.
 
 Be sure to read the [documentation for the feature](https://docs.ab.bot/guides/ui-elements/?tabs=tabid-cs).
 

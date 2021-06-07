@@ -216,4 +216,4 @@ else:
 
 This sample is a fun toy, but it demonstrates the power of the feature to figure in more important use cases. Combine this with [Triggers](https://docs.ab.bot/guides/triggers/) and you could easily build out a workflow approval system initiated by external systems.
 
-This feature works both in Teams and Slack, but not in Discord as Discord doesn't yet support UI elements. In the future we hope to add more UI element support.
+Buttons work both in Teams and Slack, but not in Discord as Discord doesn't yet support UI elements. In the future we hope to add more UI element support.

@@ -159,7 +159,6 @@ public class Candidate {
         "#800080");
     
   }
-})(); // Thanks for building with Abbot!
 ```
 
 ### Bot or not Python

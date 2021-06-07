@@ -208,7 +208,7 @@ else:
     answer = bot.tokenized_arguments[0]
     correct = bot.tokenized_arguments[1]
 
-    bot.reply('{} answered {} which is... {}! Let’s do it again!'.format(bot.from_user.get('Name'), answer, correct))
+    bot.reply("{} answered {} which is... {}! Let’s do it again!".format(bot.from_user.get('Name'), answer, correct))
     ask_bot_or_not(candidates)
 ```
 

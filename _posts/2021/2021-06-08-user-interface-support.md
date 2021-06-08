@@ -2,7 +2,7 @@
 title: "Support User Interactions With Buttons"
 description: "Abbot skills can now support user interactions through user interface elements. In the latest release, Abbot skills may include buttons in a response that the user can click (Teams and Slack only)."
 tags: [abbot, ui, buttons]
-excerpt_image: 
+excerpt_image: https://user-images.githubusercontent.com/19977/121226165-196cfd00-c83f-11eb-8b59-04b3a33e99f8.png
 author:
     avatar: https://2.gravatar.com/avatar/cdf546b601bf29a7eb4ca777544d11cd?s=160
     name: haacked
@@ -207,6 +207,14 @@ else:
     bot.reply("{} answered {} which is... {}! Let’s do it again!".format(bot.from_user.get('Name'), answer, correct))
     ask_bot_or_not(candidates)
 ```
+
+And here's what it looks like in Slack.
+
+<img width="477" alt="Image of Robby the Robot with two button choices. Is the subject a bot or not? Phil chose the correct answer." src="https://user-images.githubusercontent.com/19977/121226165-196cfd00-c83f-11eb-8b59-04b3a33e99f8.png" />
+
+And here it is in Teams.
+
+<img width="547" alt="Image of Robby the Robot with two button choices. Is the subject a bot or not? Phil chose the wrong answer. Sad trombone." src="https://user-images.githubusercontent.com/19977/121225770-b4b1a280-c83e-11eb-8057-da14f398e30e.png" />
 
 ## Conclusion
 

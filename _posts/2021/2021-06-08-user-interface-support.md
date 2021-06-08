@@ -10,7 +10,7 @@ author:
 
 Abbot skills get a lot done despite being text-based; but sometimes a human just wants to click a button. With the latest release of Abbot (`0.15.0-beta`), Abbot supports user interface elements such as buttons. This enables skill authors to create approval workflows, simple games, and more within chat.
 
-In this blog post, we build on the documentation to build a fun little "Bot or Not" skill. The skill is a game where the user is presented with an image and clicks a button to indicate whether the image is a bot or not.
+In this blog post, we [build on the documentation](https://docs.ab.bot/guides/ui-elements/?tabs=tabid-cs) to create a fun little "Bot or Not" skill. The skill is a game where the user is presented with an image and clicks a button to indicate whether the image is a bot or not.
 
 ## The pieces
 

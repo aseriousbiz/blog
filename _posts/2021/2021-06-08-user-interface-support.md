@@ -2,7 +2,7 @@
 title: "Support User Interactions With Buttons"
 description: "Abbot skills can now support user interactions through user interface elements. In the latest release, Abbot skills may include buttons in a response that the user can click (Teams and Slack only)."
 tags: [abbot, ui, buttons]
-image: https://user-images.githubusercontent.com/19977/121226165-196cfd00-c83f-11eb-8b59-04b3a33e99f8.png
+excerpt_image: https://user-images.githubusercontent.com/19977/121226165-196cfd00-c83f-11eb-8b59-04b3a33e99f8.png
 author:
     avatar: https://2.gravatar.com/avatar/cdf546b601bf29a7eb4ca777544d11cd?s=160
     name: haacked

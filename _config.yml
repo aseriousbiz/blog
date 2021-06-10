@@ -8,6 +8,9 @@ description: > # this means to ignore newlines until the next setting.
   way to get started with ChatOps.
 repository: aseriousbiz/blog
 
+# social
+twitter_username: getAbbot
+
 # Google Analytics
 google_analytics: GTM-PMQPWV8
 
@@ -33,6 +36,11 @@ kramdown:
 remote_theme: aseriousbiz/blog-theme@main
 
 exclude: [README.md CODE_OF_CONDUCT.md script .gitattributes .gitignore keybase.txt RakeFile]
+exclude:
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 keep_files: [robots.txt favicon.ico]
 incremental: true
 

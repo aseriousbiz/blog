@@ -1,5 +1,5 @@
 ---
-title: "Andreia 'Shana' Gaita is an Abboteer
+title: "Andreia 'Shana' Gaita is an Abboteer"
 description: "We are thrilled to welcome Employee #1, Andreia Gaita to A Serious Business, Inc."
 tags: [team, new-hire, abboteer]
 excerpt_image: https://user-images.githubusercontent.com/19977/122487693-b2fb8380-cf90-11eb-9719-8c2b2f8ee84c.jpeg

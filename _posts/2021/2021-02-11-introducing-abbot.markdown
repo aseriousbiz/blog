@@ -58,7 +58,7 @@ Another useful package is the [`deploy` skill](https://ab.bot/packages/aseriousb
 
 ## Custom Lists
 
-When I was at GitHub, probably the most common skill that people would write would simply post a random image or text from a pre-configured list of items. For example, my colleague wrote a `haack` skill that would post a [random animated gif of me](https://haacked.com/archive/2016/04/28/thank-you/). I wrote one that returned a random [Deep Thought by Jack Handy](https://www.pinterest.com/chrissymfrey/deep-thoughts-snl/). These were so much fun that we included them as a first-class feature, no code necessary. You can use the `custom-list` skill to create custom lists and then add items to them. When you install Abbot, it comes pre-installed with a `joke` list. Try `@abbot joke` to learn about Abbot's sense of humor.
+When I was at GitHub, probably the most common skill that people would write would simply post a random image or text from a pre-configured list of items. For example, my colleague wrote a `haack` skill that would post a [random animated gif of me](https://haacked.com/archive/2016/04/28/thank-you/). I wrote one that returned a random [Deep Thought by Jack Handy](https://www.pinterest.com/chrissymfrey/deep-thoughts-snl/). These were so much fun that we included them as a first-class feature, no code necessary. You can use the `list` skill to create lists and then add items to them. When you install Abbot, it comes pre-installed with a `joke` list. Try `@abbot joke` to learn about Abbot's sense of humor.
 
 ## Skill Triggers
 

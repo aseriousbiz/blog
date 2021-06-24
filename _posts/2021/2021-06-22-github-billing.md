@@ -54,7 +54,7 @@ This creates a [scheduled trigger](https://docs.ab.bot/guides/triggers/#schedule
 
 ![Abbot creates a scheduled trigger](https://user-images.githubusercontent.com/19977/122844905-780e8e00-d2b7-11eb-8bed-d1c1faed4342.png)
 
-When creating a trigger, nhe `schedule` skill reports back a URL to set up the actual details for the schedule such as when it should run and which arguments to pass to it.
+When creating a trigger, the `schedule` skill returns a URL to set up the actual details for the schedule such as when it should run and which arguments to pass to it.
 
 When you visit the triggers page, you can see the set of all triggers attached to the skill. In the following screenshot, there's only one - the one we just created.
 

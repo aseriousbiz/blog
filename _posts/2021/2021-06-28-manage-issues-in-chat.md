@@ -12,7 +12,7 @@ An important Abbot benefit is it brings the ability to _do work_ where discussio
 
 For example, if you're in a discussion about an experimental branch of code, someone might suggest deploying it to a test environment. You can use the [`deploy` skill](https://ab.bot/packages/aseriousbiz/deploy) to deploy right away. Even better, everyone in the discussion sees that you did it and how you did it. It's a powerful shared context.
 
-What about when you're discussing an issue in chat? Wouldn't it be nice to be able to assign it to a user in chat? Yes it would. And now, there's a [skill for that](https://ab.bot/packages/aseriousbiz/github), the `github` skill.
+What about when you're discussing an issue in chat? Wouldn't it be nice to be able to assign it to a user in chat? Yes it would. And now, there's a [skill for that](https://ab.bot/packages/aseriousbiz/github), the `github` skill. 
 
 ## See it in action
 
@@ -81,7 +81,7 @@ Again, this is limited to twenty.
 
 The `github` skill is a nice complement to [GitHub's Slack Integration](https://slack.github.com/). I recommend installing both! There's some overlap between the two, but one nice thing about the `github` skill is you have access to the source code and can easily tweak it to fit your own workflows. And it's easy to map your GitHub user to your chat user.
 
-Also, the `github` skill works in Discord and Microsoft Teams!
+Also, the `github` skill works in Discord and Microsoft Teams! At the moment, it's a small taste of the types of things you can do with Abbot. We plan to add a lot more usefulness to this skill.
 
 ## Using an alias to make it shorter
 

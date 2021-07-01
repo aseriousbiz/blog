@@ -107,7 +107,7 @@ bot.reply("```{}```".format(df.to_markdown()))
 That's all there is to it! 
 
 ## Wrapping up
-It's easy to imagine what's possible once an Abbot skill can connect to external databases, especially when combined with [HTTP Triggers](https://docs.ab.bot/guides/triggers/), access controls, and built-in auditing. 
+It's easy to imagine what's possible once an Abbot skill can connect to external databases, especially when combined with [HTTP Triggers](https://docs.ab.bot/guides/triggers/), access controls, and built-in auditing. The source code to the `sql` package is [available on GitHub](https://github.com/aseriousbiz/abbot-skills/blob/main/skills/sql.py) as well, if you'd like to use it for the basis for your own skills.
 
 Please let us know if you have a use case that requires you to connect with a database we don't yet support. We'd love to talk to you about it! 
 

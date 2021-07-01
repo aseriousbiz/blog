@@ -15,7 +15,7 @@ Here are some examples of what you can do with this new power:
 ## Run predefined reports from chat
 It can be a hassle to get reports from your database and into a spreadsheet, just so you can email them to your team. Having a set of pre-defined reports that your team can run at any time gives them the ability to review data on demand.
 
-Let's build a sql reporting tool in Abbot using Python. We'll use `pandas`, since it gives us so many tools for data manipulation. We will also include SQLAlchemy to manage the database connection. You will need a connection string to a database that Abbot can reach in order to write this skill. C# and JavaScript skills can also connect to databases! 
+Let's build a sql reporting skill in Abbot using Python. We'll use Pandas, since it provides so many tools for data manipulation. We will also include SQLAlchemy to manage the database connection. You will need a connection string to a database that Abbot can reach in order to write this skill. C# and JavaScript skills can also connect to databases! 
 
 Start a new Python skill called `reports`, then create a secret called `connstr` with the connection string you created for your database. Once the skill and secret are created, add these lines to your skill:
 
@@ -40,9 +40,9 @@ results = "```{}```".format(df.to_markdown())
 bot.reply(results)
 ```
 
-These few lines of code will form the basis of everything we we'll do through this post. Running the code now should return a result that just says "1". 
+These few lines of code will form the basis of everything we we'll do through this post. Running the skill now should return a result that says "1". 
 
-Let's experiment and make some predefined reports for people to run. Since your database will have its own schema, you will need to pick some simple queries to work with. It is a good idea to limit all your queries to only a few results so that you don't flood chat with too much data.
+Let's experiment and make some predefined reports for people to run. Since your database will have its own unique schema, you will need to write some simple queries to work with. It is a good idea to limit all your queries to only a few results so that you don't flood chat with too much data.
 
 ```python
 # Create the database connection
@@ -91,7 +91,6 @@ df = pandas.read_sql(query,
 ```
 
 Run this skill by saying `@abbot lookup yadda` where `yadda` is contained in the Name field of your table. This will give you a list of organizations that match. Get extra credit by forming the correct URLs for each organization when you return the data so that your customer teams can click a link to view their customer record.
-
 
 ## The Danger Zone
 With great power comes great responsibility. It's possible to create a skill that allows people to execute arbitrary SQL commands from chat. It's up to you and your team to decide if that's a good idea or not; if you do decide to walk on the wild side, Abbot has built-in auditing and [access controls](https://youtu.be/6NHMyyWZtrU). Be sure to limit who can run these sorts of skills in your chat by restricting the skill before you release it.

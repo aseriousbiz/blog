@@ -1,6 +1,6 @@
 ---
 title: "Query databases from chat with Abbot"
-description: "Chat is the perfect place to review data wth your team. Abbot makes it easy to query your data and share it in chat."
+description: "Chat is the perfect place to review data with your team. Abbot makes it easy to query your data and share it in chat."
 tags: [sql,data,dataclip]
 excerpt_image: https://user-images.githubusercontent.com/279389/124063486-d4745a80-d9e7-11eb-913a-e44ee5b46c55.png
 author:

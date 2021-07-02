@@ -10,7 +10,7 @@ container_class: contributor-list
   <img src="/assets/img/abbot-logo.png" class="is-rounded" alt="Image of Abbot" />
 </figure>
 
-These lovely people have contributed a fix to this blog. If you want to see yourself in this list, send a pull request!
+These lovely people have contributed to this blog. If you want to see yourself in this list, send a pull request!
 
 Every post has a "suggest edit" link that lets you edit the blog post directly in the browser and automatically sends a pull request to GitHub.
 

@@ -72,7 +72,7 @@ Most often, you'll want to customize the time window of your graph. You can spec
 @abbot grafana db home:3 2d 1d
 ```
 
-This generates a graph of the `logins` panel in the `Home` dashboard with a time window of 2 days to 1 day from now.
+This generates a graph of the `logins` panel in the `Home` dashboard with a time window starting 2 days ago and ending 1 day ago.
 
 Time parameters are optional, and if you only have one, it will be interpreted as a window of "now - Time" to now.
 

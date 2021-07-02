@@ -81,7 +81,7 @@ Time parameters are optional, and if you only have one, it will be interpreted a
 @abbot grafana db "grafana dashboard:client side full page load" 24h var-app=backend var-server=backend_01 var-server=backend_03 var-interval=1h
 ```
 
-A more complex query generated a templated Grafana graph with a time window of 24 hours, customized with several variables.
+The more complex query above generates a templated Grafana graph with a time window of 24 hours, customized with several variables.
 
 
 ![Screenshot showing a graph with custom ranges and template variables](https://user-images.githubusercontent.com/310137/124180188-28e50c00-dab4-11eb-9398-d3333323bae0.png)

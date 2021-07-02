@@ -8,7 +8,7 @@ author:
     name: shana
 ---
 
-An image is worth a thousand words, which is why Abbot can now help you visualize your graphs on chat with the [grafana](https://ab.bot/packages/aseriousbiz/grafana) skill!
+An image is worth a thousand words, which is why [Abbot](https://ab.bot/) can now help you visualize your graphs in chat with the [grafana](https://ab.bot/packages/aseriousbiz/grafana) skill!
 
 List all your dashboards and quickly query your panels, generating graphs with custom time ranges and template variables to suit your visualization needs.
 

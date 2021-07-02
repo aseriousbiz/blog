@@ -15,7 +15,7 @@ List all your dashboards and quickly query your panels, generating graphs with c
 ## Setting it up
 Before you can start visualizing all your graphs, you need to tell Abbot where to go to get them.
 
-Start by generating a Grafana API key on your Grafana host, usually found at https://your-grafana-host/org/apikeys. Then, visit [https://ab.bot/skills/grafana](https://ab.bot/skills/grafana) and click "Manage skill secrets" to add a secret named ___GrafanaKey___, with the key you created.
+Start by generating a Grafana API key on your Grafana host, usually found at `https://your-grafana-host/org/apikeys`. Then, visit [https://ab.bot/skills/grafana](https://ab.bot/skills/grafana) and click "Manage skill secrets" to add a secret named ___GrafanaKey___, with the key you created.
 
 In chat, tell Abbot where your Grafana host is with
 

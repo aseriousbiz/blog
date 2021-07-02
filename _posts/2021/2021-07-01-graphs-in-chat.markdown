@@ -86,7 +86,7 @@ The more complex query above generates a templated Grafana graph with a time win
 
 ![Screenshot showing a graph with custom ranges and template variables](https://user-images.githubusercontent.com/310137/124180188-28e50c00-dab4-11eb-9398-d3333323bae0.png)
 
-Any parameter that Grafana supports in a query can be passed to the skill as key=value pairs, like timezone specifications or custom graph sizes:
+Any parameter that Grafana supports in a query can be passed to the skill as `key=value` pairs, like timezone specifications or custom graph sizes:
 
 
 ```bash

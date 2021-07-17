@@ -8,7 +8,7 @@ author:
     name: pmn
 ---
  
-No two workshops are the same. Every workshop evolves its own blend of wear patterns, scars, and scratches on the floor with use over time. Something else emerges – the tools that the craftspeople make for themselves to use inside the workshop. This collection of purpose-built tools create a special language in the workshop, a dialect unique to what the shop creates; and unique to the collection of people doing the creation.
+No two workshops are the same. Well-used workshops form a patina of scars, wear marks, and scratches on the floor over time, giving them their own unique fingerprint. Look inside one and you'll notice something else: the tools that the craftspeople made for themselves to use inside the workshop. These purpose-built tools create a special language in the workshop, a patois evolved from the shared experiences of building. 
 
 As people change jobs, they bring the best of the tools they used at their last shop with them. They may not work exactly the same way in the new place; but it makes a great starting point for helping everyone else build faster, more accurately, and with less effort. Some of these tools are bought off the shelf, but often there are tools that are made to fill a specific need quickly and simply.
 
@@ -45,7 +45,7 @@ Because we abstract away nearly all of the infrastructure for running skills, it
 Skills installed from the Package Directory are treated the same way as skills built by your team. In fact, you get access to the source code for all skills shared in the directory so you can make any modifications you'd like. In addition, these skills benefit from the same supporting infrastructure as all other Abbot skills. Integrated help, discovery, permissions all work the same as skills you built yourself.
 
 ## Collaboration is fun
-As you might have guessed, we don't like to have fun at A Serious Business, Inc. Despite that, it's worth mentioning that these skills are a great way to ship a little piece of your team's personality into your workspace. Just like you might have a hammer with a hot pink handle in the shop named "The Smashinator", you can make some fun things for your team to use with Abbot as well. We make heavy use of [custom lists](https://blog.ab.bot/archive/2021/06/22/shipit/) to tell people when we're excited, or to keep track of our favorite robot jokes. There's even an installable package for [pugs on demand](https://ab.bot/packages/aseriousbiz/pug).
+You may be surprised to learn that we like a little fun at A Serious Business, Inc. These skills are a great way to ship a little piece of your team's personality into your workspace. Just like you might have a hammer with a hot pink handle in the shop named "The Smashinator", you can make some fun things for your team to use with Abbot as well. We make heavy use of [custom lists](https://blog.ab.bot/archive/2021/06/22/shipit/) to tell people when we're excited, or to keep track of our favorite robot jokes. There's even an installable package for [pugs on demand](https://ab.bot/packages/aseriousbiz/pug).
 
 It turns out that shipping your sense of humor (or lack thereof) into chat can be a pretty great teambuilding experience. If your team works remotely even some of the time, having some fun inside the shop makes working together a lot more enjoyable.
 

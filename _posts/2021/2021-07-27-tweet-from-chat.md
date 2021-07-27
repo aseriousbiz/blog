@@ -44,7 +44,7 @@ Once you have Abbot installed, you can create the `tweet` skill by clicking the 
 
 ## Authorizing Abbot to manage the Twitter account
 
-Once you have the `tweet` skill, you will need to Authorize Abbot so that it can tweet on behalf of your Twitter account by running the following command:
+Once you have the `tweet` skill, you will need to authorize Abbot so that it can tweet on behalf of your Twitter account by running the following command:
 
 ![@abbot tweet auth](https://user-images.githubusercontent.com/19977/127073610-ce7fbe79-1830-42bf-bc80-97dad5874210.png)
 

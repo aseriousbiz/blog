@@ -14,7 +14,9 @@ If you manage more than one Twitter account, whether it's for a project or a com
 
 _(image from [Gawker](https://gawker.com/5949503/the-social-media-director-at-stubhub-is-not-having-a-good-night))_
 
-Hey, who hasn't thanked...Frank...for Friday? Even so, that's a tweet for your personal account, not your employer's. This kind of mistake is really easy to make if you use your phone to manage multiple Twitter accounts. Fornutately, there's a better way with Abbot!
+Hey, who hasn't thanked...Frank...for Friday? Even so, that's a tweet for your personal account, not your employer's.
+
+And when a mistake like this happens, it's easy to blame the person who made the mistake. But that isn't a productive approach. After all, this is a really easy mistake to make if you use your phone to manage multiple accounts. Instead, look at the system that allowed this mistake to happen! That's where Abbot comes in!
 
 ## Tweet from chat with Abbot
 

@@ -60,5 +60,8 @@ You'll need to give this PIN to Abbot to complete the authorization process.
 
 ![@abbot tweet auth 584780](https://user-images.githubusercontent.com/19977/127074789-be348bb3-4012-493b-b383-f4edbbe65abb.png)
 
-And with that, you're all set. Note that authorization is per chat room. That makes it easy to have one room manage one Twitter account while another room manages another. To find out which twitter account you're running in a room, run `@abbot tweet auth user`.
+And with that, you're all set. Note that authorization is per chat room. That makes it easy to have one room manage one Twitter account while another room manages another. To find out which twitter account you're running in a room, run `@abbot tweet auth user`. Happy tweeting!
 
+## Feedback?
+
+You can find the source code for [this skill here](https://github.com/aseriousbiz/abbot-skills/blob/main/skills/tweet.py). If you have feedback on the skill, [log an issue](https://github.com/aseriousbiz/abbot-skills/issues).

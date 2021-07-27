@@ -10,7 +10,7 @@ author:
 
 If you manage more than one Twitter account, whether it's for a project or a company's social media presence, it's safe to say that a huge fear is tweeting something from the wrong account. I've done it. Maybe you have. Hopefully not as bad this person:
 
-![Failed tweet from a StubHub account: Thank fuck it's Friday! Can't wait to get out of this stubsucking hell hole.](https://user-images.githubusercontent.com/19977/127071611-68f7610e-eb7c-49ad-93da-0ce430f7ac5a.jpg)
+![Failed tweet from a StubHub account: Thank Frank it's Friday! Can't wait to get out of this stubsucking hell hole.](https://user-images.githubusercontent.com/19977/127176682-1410a4e4-e092-48b0-9653-b120f5e0d147.jpeg)
 
 _(image from [Gawker](https://gawker.com/5949503/the-social-media-director-at-stubhub-is-not-having-a-good-night))_
 
@@ -32,13 +32,13 @@ This is based on our experiences at GitHub where we would use a chat bot (Hubot)
 
 ![Screen Shot of @haacked running the tweet skill and Abbot creating a tweet](https://user-images.githubusercontent.com/19977/127073042-60c19aee-62d2-4bea-ad6c-7028395defcc.png)
 
-Here's a screenshot of me using Abbot to create a tweet. It's not a great tweet, [but it's out there](https://twitter.com/getAbbot/status/1419805425101279235).
+Here's a screenshot of me using Abbot to create [a tweet of one of Abbot's internationally acclaimed jokes](https://twitter.com/getAbbot/status/1419805425101279235). (For those who want more of Abbot's hilarity, try `@abbot joke` after installing Abbot.)
 
-You can also use Abbot to have your Twitter account follow and unfollow other accounts as well as reply to, like, or retweet a tweet.
+You can also use this skill to follow and unfollow other accounts as well as reply to, like, or retweet a tweet.
 
 ## How do I start?
 
-Starting is easy. If you don't have Abbot installed, it's a [couple of clicks to get it installed](https://ab.bot/login) (assuming you have permission to install an app into Slack, Discord, or Teams).
+Starting is easy. If you don't have Abbot installed, it's a [couple of clicks to get it installed](https://ab.bot/login).
 
 Once you have Abbot installed, you can create the `tweet` skill by clicking the "Install Package" button in the [package listing for the `tweet` skill](https://ab.bot/packages/aseriousbiz/tweet). It's really that easy!
 

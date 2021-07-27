@@ -30,7 +30,7 @@ This is based on our experiences at GitHub where we used a chat bot (Hubot) to t
 4. Since the account is managed from chat, and credentials are not shared, it's unlikely someone will accidentally tweet from that account by accident on their phone.
 5. As we grow, we can lock down access to the skill using [Abbot's access controls](https://youtu.be/6NHMyyWZtrU) as needed.
 
-In fact, when I tweet about this blog post, I'll use the skill. So meta!
+In fact, when I [tweet about this blog post](https://twitter.com/getAbbot/status/1420055239869100040), I'll use the skill. So meta!
 
 ## See it in action
 

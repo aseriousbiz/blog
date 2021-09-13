@@ -14,6 +14,6 @@ We’re excited to share that Don Okuda has joined us as a Founding Product Desi
 
 We all worked with Don at GitHub on GitHub Desktop and can’t wait to work with him more here. 
 
-When he’s not making great products, Don makes music and cooks his SPAM medium rare. 
+When he’s not making great products, Don makes music and enjoys pineapple on his pizza. 
 
 Don insists he’s an actual human, so please join us in welcoming him to A Serious Business!

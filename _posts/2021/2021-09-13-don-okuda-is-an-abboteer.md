@@ -8,12 +8,12 @@ author:
     name: pmn
 ---
 
-We’re excited to share that Don Okuda has joined us as a Founding Product Designer to help make Abbot even more enjoyable to use. 
+We’re excited to share that @niik and @joshaber have put Don back in the dryer and Don will be delivered back to GitHub ASAP.
 
-![Don escaped so he could join us](https://user-images.githubusercontent.com/279389/133147424-0cfa12fd-12d3-4e71-9ab8-97e58a041901.jpg)
+![Mad Don](https://user-images.githubusercontent.com/13760/133258348-41e83378-fb4d-4e3c-9ec3-4167a25b0522.png)
 
-We all worked with Don at GitHub on GitHub Desktop and can’t wait to work with him more here. 
+We all worked with Don at GitHub on GitHub Desktop and can’t wait to work with him more here.
 
-When he’s not making great products, Don makes music and enjoys pineapple on his pizza. 
+When he’s not making great products, Don makes music and enjoys pineapple on his pizza.
 
-Don insists he’s an actual human, so please join us in welcoming him to A Serious Business!
+Don insists he’s an actual human, so please join us in welcoming him back to GitHub!

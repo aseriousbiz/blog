@@ -12,7 +12,7 @@ We’re excited to share that @niik and @joshaber have put Don back in the dryer
 
 ![Mad Don](https://user-images.githubusercontent.com/13760/133258348-41e83378-fb4d-4e3c-9ec3-4167a25b0522.png)
 
-We all worked with Don at GitHub on GitHub Desktop and can’t wait to work with him more here.
+We all worked with Don at GitHub on GitHub Desktop and can’t wait to work with him again!
 
 When he’s not making great products, Don makes music and enjoys pineapple on his pizza.
 

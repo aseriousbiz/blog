@@ -21,6 +21,8 @@ contact:
 # Homepage
 show_excerpts: true  # set to true to show excerpts on the homepage, otherwise full posts are shown
 
+github: [metadata]
+
 #
 # Jekyll Settings
 #

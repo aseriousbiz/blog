@@ -16,6 +16,6 @@ Since every skill has a unique name, this approach is easy to reason about. It's
 
 Well now such skills are possible with the new Abbot feature, Patterns! Patterns allow you to configure listeners in Abbot that pay attention to specific words and phrases. When a pattern matches, the associated skill is called. Patterns can match the beginning or end of a message, or even use a regular expression to match a message.
 
-Patterns can be useful to your team, because they can connect Abbot skills to everyday conversations that your team has in chat. There are simple use cases like keeping track of karma points or checking if a website is down, or more complex ones like linking to external issues, or even monitoring chat for errant yubikey clicks.
+Patterns can be useful to your team, because they can connect Abbot skills to everyday conversations that your team has in chat. There are simple use cases like [keeping track of karma points](https://ab.bot/packages/aseriousbiz/karma) or checking if a website is down, or more complex ones like linking to external issues, or even monitoring chat for errant yubikey clicks.
 
 Patterns give Abbot a lot of flexibility: now Abbot can respond to any kind of message in chat, not just ones where it’s been mentioned directly. We’ve created some example skills you can use that consume patterns, or you can see a deeper dive in [this blog post]({% post_url 2021/2021-11-03-how-cascadiajs-uses-abbot %}) about how the Cascadia JS conference used Patterns to power its conference live feed.

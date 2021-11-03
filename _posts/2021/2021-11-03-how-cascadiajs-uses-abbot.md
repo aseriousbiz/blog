@@ -10,7 +10,7 @@ author:
 
 If you attended CascadiaJS 2021, you may have noticed live updates on the website that came from Cascadia's Discord server. 
 
-The CascadiaJS team did this using Abbot. They installed Abbot into their Discord server, and created a command called “channel-sync” that listens for messages in a room they’ve set up. Any time someone sends a message, Abbot takes that message and some metadata about who sent it and posts it to an external server in order to update the live feed.
+The CascadiaJS team did this using [Abbot](https://ab.bot/). They installed Abbot into their Discord server, and created a command called “channel-sync” that listens for messages in a room they’ve set up. Any time someone sends a message, Abbot takes that message and some metadata about who sent it and posts it to an external server in order to update the live feed.
 
 You could build something like this yourself. Start by [signing up for an Abbot account](https://ab.bot) and connecting it to your chat server (Abbot supports Slack, Discord, or Microsoft Teams). 
 

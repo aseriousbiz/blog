@@ -23,10 +23,9 @@ Since this was done for a JavaScript conference, let's build our script using Ja
 ```javascript
   const axios = require('axios');
 
-  let website = bot.arguments; // bot.arguments contains the user-provided text
-  if (bot.isPatternMatch) {    // this will be true if it's the result of a pattern match. Otherwise, it's a chat message.
-    website = bot.tokenizedArguments[1].toString(); // Abbot tokenizes arguments to make it easier to ahandle them.
-  }
+  // bot.arguments contains the user-provided text
+  // bot.tokenizedArguments contains parsed arguments to make it easier to handle them.
+  const website = bot.isPatternMatch ? bot.tokenizedArguments[1].value : bot.arguments;
   
   await axios.get(website)
     .then(function (response) {

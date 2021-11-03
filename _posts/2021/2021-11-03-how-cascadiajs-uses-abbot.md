@@ -14,7 +14,7 @@ The CascadiaJS team did this using [Abbot](https://ab.bot/). They installed Abbo
 
 You could build something like this yourself. Start by [signing up for an Abbot account](https://ab.bot) and connecting it to your chat server (Abbot supports Slack, Discord, or Microsoft Teams). 
 
-CascadiaJS sends every message that Abbot sees out to another system. Let’s build something that is a little less noisy. Once you're done, you’ll have all the tools you need to build anything you’d like.
+CascadiaJS's `channel-sync` skill sends every message that Abbot sees out to another system. Let’s build something that is a little less noisy. Once you're done, you’ll have all the tools you need to build anything you’d like.
 
 Let's build a simple script that listens for people asking if a site is down (__“is www.aseriousbusiness.com down?”__). If Abbot is in the room when someone asks the question, it can try to connect to the server and let the user know if the site is up or down. 
 

@@ -5,6 +5,7 @@ tags: [twitter]
 excerpt_image:
     url: https://user-images.githubusercontent.com/19977/127073042-60c19aee-62d2-4bea-ad6c-7028395defcc.png
     title: "That probably ended a career."
+    alt: "Failed tweet from a StubHub account: Thank Frank it's Friday! Can't wait to get out of this stubsucking hell hole."
 author:
     avatar: https://2.gravatar.com/avatar/cdf546b601bf29a7eb4ca777544d11cd?s=160
     name: haacked

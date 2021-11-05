@@ -2,7 +2,10 @@
 title: "Visualize Grafana dashboards in chat"
 description: "The grafana skill lets you quickly see all your Grafana dashboards and visualize custom graph queries without leaving your chat window."
 tags: [grafana,graphs]
-excerpt_image: https://user-images.githubusercontent.com/310137/124177982-4369b600-dab1-11eb-84eb-33f3ba1d23c4.png
+excerpt_image:
+    url: https://user-images.githubusercontent.com/310137/124177982-4369b600-dab1-11eb-84eb-33f3ba1d23c4.png
+    alt: Screenshot showing several graphs of the Home dashboard
+    title: Graph all of the things.
 author:
     avatar: https://gravatar.com/avatar/dc6fa84a4a864f9627e220b716572cba?s=160
     name: shana
@@ -36,7 +39,7 @@ The main command for the Grafana skill is `db`, for dashboard. To see all the pa
 
 Dashboard names are case insensitive and can be partial, so if you have a dashboard with a long name, you don't have to write it all in full.
 
-![Screenshot showing several graphs of the Home dashboard](https://user-images.githubusercontent.com/310137/124183379-6a77b600-dab8-11eb-92a7-91af9d60b21c.png)
+![Screenshot showing several graphs of the Home dashboard](https://user-images.githubusercontent.com/310137/124183379-6a77b600-dab8-11eb-92a7-91af9d60b21c.png "Graph all of the things")
 
 You probably don't want to see all the panels of a dashboard all the time though - you will likely have specific graphs you want to generate at certain times. To see a graph of a specific panel of a dashboard, add a colon and the panel name after the dashboard name to the `db` query, like so:
 

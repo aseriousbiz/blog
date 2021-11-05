@@ -5,6 +5,7 @@ tags: [team, new-hire, abboteer]
 excerpt_image:
     url: https://user-images.githubusercontent.com/279389/133147424-0cfa12fd-12d3-4e71-9ab8-97e58a041901.jpg
     title: "Don made a clean escape so he could join us"
+    alt: Don Okuda bundled inside a washing machine with clothes and just his head peeking out.
 author:
     avatar: https://avatars.githubusercontent.com/u/279389?s=400&u=74e6e598a2bf9d9889fbb771c542c508bf270e36
     name: pmn

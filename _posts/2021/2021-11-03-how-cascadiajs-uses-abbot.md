@@ -5,6 +5,7 @@ tags: [patterns,cascadiajs,abbot]
 excerpt_image:
   url: https://user-images.githubusercontent.com/19977/140583949-f03ce751-5708-4eaa-a14a-fa2b03d43737.png
   title: "Abbot can be used in flexible ways"
+  alt: Cascadia's website live stream with Discord chat messages relayed to the right sidebar
 author:
     avatar: https://avatars.githubusercontent.com/u/279389?s=400&u=74e6e598a2bf9d9889fbb771c542c508bf270e36&v=4
     name: pmn

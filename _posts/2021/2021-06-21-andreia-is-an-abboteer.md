@@ -5,6 +5,7 @@ tags: [team, new-hire, abboteer]
 excerpt_image:
     url: https://user-images.githubusercontent.com/19977/122487693-b2fb8380-cf90-11eb-9719-8c2b2f8ee84c.jpeg
     title: "Shana searches for that last bug"
+    alt: "Image of a Shana in scuba gear upside down underwater"
 author:
     avatar: https://2.gravatar.com/avatar/cdf546b601bf29a7eb4ca777544d11cd?s=160
     name: haacked

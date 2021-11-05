@@ -2,7 +2,9 @@
 title: "Tools For Inside the Workshop"
 description: "Abbot brings a different style of work to teams, where people build tools for themselves and each other."
 tags: [tools, devtools, chatops]
-excerpt_image: https://user-images.githubusercontent.com/279389/125671459-9eb8385d-66a0-4010-9d77-49a00f9919f5.jpg
+excerpt_image:
+    url: https://user-images.githubusercontent.com/279389/125671459-9eb8385d-66a0-4010-9d77-49a00f9919f5.jpg
+    alt: Many tools on a wall inside a workshop
 author:
     avatar: https://avatars.githubusercontent.com/u/279389?v=4
     name: pmn

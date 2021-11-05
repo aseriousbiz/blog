@@ -5,6 +5,7 @@ tags: [patterns,abbot]
 excerpt_image:
     url: https://user-images.githubusercontent.com/19977/139963499-5f0db4c3-a72e-4bad-8419-d1ac247c676c.jpeg
     title: Puzzle image dedicated to the public domain by the author.
+    alt: Puzzle with last piece fitting in
 author:
     avatar: https://2.gravatar.com/avatar/cdf546b601bf29a7eb4ca777544d11cd?s=160
     name: haacked
@@ -14,7 +15,7 @@ Until recently, to call an Abbot skill, you issued a command that specified the 
 
 Since every skill has a unique name, this approach is easy to reason about. It's always clear which skill will respond to a given command. However, there are cases where it would be nice for Abbot to not be restricted to direct commands. For example, you may want alternative ways of calling a skill that feel more natural in the situation. Or you may want Abbot to act more proactively to content in messages such as when someone mentions a tracking number.
 
-![Puzzle with last piece fitting in - Image dedicated to the public domain](https://user-images.githubusercontent.com/19977/139963499-5f0db4c3-a72e-4bad-8419-d1ac247c676c.jpeg "Puzzle image dedicated to the public domain by the author.")
+![Puzzle with last piece fitting in](https://user-images.githubusercontent.com/19977/139963499-5f0db4c3-a72e-4bad-8419-d1ac247c676c.jpeg "Puzzle image dedicated to the public domain by the author.")
 
 Well now such skills are possible with the new Abbot feature, Patterns! Patterns allow you to configure listeners in Abbot that pay attention to specific words and phrases. When a pattern matches, the associated skill is called. Patterns can match the beginning or end of a message, or even use a regular expression to match a message.
 

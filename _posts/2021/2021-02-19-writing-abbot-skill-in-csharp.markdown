@@ -2,7 +2,9 @@
 title: "Writing Sparkly Abbot Skills With C#"
 description: "This video walks through writing a skill to give your friends and colleagues :sparkles:."
 tags: [abbot,chatops,csharp]
-excerpt_image: https://user-images.githubusercontent.com/19977/108565585-c7b55c80-72b9-11eb-93bb-db25dd0febb2.png
+excerpt_image:
+    url: https://user-images.githubusercontent.com/19977/108565585-c7b55c80-72b9-11eb-93bb-db25dd0febb2.png
+    alt: "Screenshot from a YouTube video showing the Abbot skill editor."
 author:
     avatar: https://2.gravatar.com/avatar/cdf546b601bf29a7eb4ca777544d11cd?s=160
     name: haacked

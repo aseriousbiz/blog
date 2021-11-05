@@ -2,7 +2,9 @@
 title: "Manage GitHub issues in chat with Abbot"
 description: "Chat can be a great place to discuss issues and what to do about them. But why not go further and triage issues and assign them from chat? With the github skill, you can do all that and more! And the skill is customizable to fit your needs."
 tags: [github,issues]
-excerpt_image: https://user-images.githubusercontent.com/19977/123681438-b26bb400-d7fe-11eb-99bf-b73d8e47ba56.png
+excerpt_image:
+    url: https://user-images.githubusercontent.com/19977/123681438-b26bb400-d7fe-11eb-99bf-b73d8e47ba56.png
+    alt: Screenshot showing the github triage and assign commands
 author:
     avatar: https://2.gravatar.com/avatar/cdf546b601bf29a7eb4ca777544d11cd?s=160
     name: haacked

@@ -2,7 +2,9 @@
 title: "Subscribing to cloud events with Abbot"
 description: "Subscribe to notifications about important events in your cloud infrastructure using Abbot in a few easy steps!"
 tags: [abbot,chatops,csharp]
-excerpt_image: https://user-images.githubusercontent.com/19977/110027163-7f009900-7ce6-11eb-8aba-5b1d96ef0b6d.png
+excerpt_image:
+    url: https://user-images.githubusercontent.com/19977/110027163-7f009900-7ce6-11eb-8aba-5b1d96ef0b6d.png
+    alt: "Screenshot from a YouTube video showing the package listing for the cloud-event skill."
 author:
     avatar: https://2.gravatar.com/avatar/cdf546b601bf29a7eb4ca777544d11cd?s=160
     name: haacked

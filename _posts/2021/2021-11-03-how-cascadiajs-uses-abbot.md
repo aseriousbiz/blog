@@ -51,9 +51,9 @@ Once you’ve verified that the skill works, add a Pattern by clicking the link 
 
 This Pattern is made a little more complicated by all the ways chat platforms might send us the URL, for now you'll just have to trust that it works. You can see for yourself by using the built-in tester. Try a phrase like “is google.com down?” to make sure it matches.
 
-Once this is enabled, jump into any chat room that has Abbot in it, and try asking if a site is up or down. Go on, we’ll wait for you to try it! 
+Once this is enabled, jump into any chat room that has Abbot in it, and try asking if a site is up or down. Go on, we’ll wait for you to try it!
 
-The pattern above registered a listener (which we call a Pattern) and attached it to the `website-checker` skill you created. You can see all the patterns that Abbot is configured to use by visiting [https://ab.bot/skills/patterns/all](https://ab.bot/skills/patterns/all). Now any time someone asks if a website is down in a room with Abbot, it will do all the work of checking. 
+The pattern above registered a listener (which we call a Pattern) and attached it to the `website-checker` skill you created. You can see all the patterns that Abbot is configured to use by visiting [https://ab.bot/skills/patterns/all](https://ab.bot/skills/patterns/all). Now any time someone asks if a website is down in a room with Abbot, it will do all the work of checking.
 
 Patterns can contain any kind of regular expression. [You can read more about them here]({% post_url 2021/2021-11-03-introducing-patterns %}).
 

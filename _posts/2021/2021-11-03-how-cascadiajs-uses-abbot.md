@@ -2,13 +2,17 @@
 title: "Updating the CascadiaJS live stream with Abbot"
 description: "CascadiaJS uses Abbot patterns to power its live feed. See how to use Patterns in this post"
 tags: [patterns,cascadiajs,abbot]
-excerpt_image: 
+excerpt_image:
+  url: https://user-images.githubusercontent.com/19977/140583949-f03ce751-5708-4eaa-a14a-fa2b03d43737.png
+  title: "Abbot can be used in flexible ways"
 author:
     avatar: https://avatars.githubusercontent.com/u/279389?s=400&u=74e6e598a2bf9d9889fbb771c542c508bf270e36&v=4
     name: pmn
 ---
 
-If you attended [CascadiaJS 2021](https://2021.cascadiajs.com/), you may have noticed live updates on the website that came from Cascadia's Discord server. 
+If you attended [CascadiaJS 2021](https://2021.cascadiajs.com/), you may have noticed live updates on the website that came from Cascadia's Discord server.
+
+![Cascadia's website live stream with Discord chat messages relayed to the right sidebar](https://user-images.githubusercontent.com/19977/140583949-f03ce751-5708-4eaa-a14a-fa2b03d43737.png "Abbot can be used in flexible ways")
 
 The CascadiaJS team did this using [Abbot](https://ab.bot/). They installed Abbot into their Discord server, and created a command called “channel-sync” that listens for messages in a room they’ve set up. Any time someone sends a message, Abbot takes that message and some metadata about who sent it and posts it to an external server in order to update the live feed. Brenden Niedermeyer is one of the organizers of CascadiaJS, and he blogged about building their live update system in [this post](https://brenden.codes/cascadiajs-building-live-experiences-with-web-components).
 

@@ -13,6 +13,7 @@ Chat is a great place to review data together. Abbot has always made interacting
 Here are some examples of what you can do with this new power:
 
 ## Run predefined reports from chat
+
 It can be a hassle to get reports from your database and into a spreadsheet, just so you can email them to your team. Having a set of pre-defined reports that your team can run at any time gives them the ability to review data on demand.
 
 Let's build a sql reporting skill in Abbot using Python. We'll use Pandas, since it provides so many tools for data manipulation. We will also include SQLAlchemy to manage the database connection. You will need a connection string to a database that Abbot can reach in order to write this skill. C# and JavaScript skills can also connect to databases! 

@@ -2,7 +2,9 @@
 title: "Argument parsing with Abbot"
 description: "Abbot has some neat built-in tools for argument parsing that make use of C# tuple deconstruction for fun and profit."
 tags: [abbot,chatops,csharp]
-excerpt_image: https://user-images.githubusercontent.com/19977/107692389-92799080-6c61-11eb-9710-c75811b528ee.jpg
+excerpt_image:
+    url: https://user-images.githubusercontent.com/19977/107692389-92799080-6c61-11eb-9710-c75811b528ee.jpg
+    title: "The feeling I get when I parse arguments with a regular expression"
 author:
     avatar: https://2.gravatar.com/avatar/cdf546b601bf29a7eb4ca777544d11cd?s=160
     name: haacked

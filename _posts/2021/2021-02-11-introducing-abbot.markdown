@@ -2,7 +2,9 @@
 title: "Introducing Abbot, a powerful ChatOps tool for collaborative work"
 description: "Introducing Abbot, your friendly neighborhood chat bot. It's the best way to automate tasks from chat to work together with others."
 tags: [abbot,chatops,remote work]
-excerpt_image: https://user-images.githubusercontent.com/19977/107439587-26731d00-6ae7-11eb-925c-0f50f09f2969.png
+excerpt_image:
+    url: https://user-images.githubusercontent.com/19977/107439587-26731d00-6ae7-11eb-925c-0f50f09f2969.png
+    title: "I am ready to do the thing."
 author:
     avatar: https://2.gravatar.com/avatar/cdf546b601bf29a7eb4ca777544d11cd?s=160
     name: haacked

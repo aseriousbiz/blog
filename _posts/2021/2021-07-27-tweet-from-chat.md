@@ -2,7 +2,9 @@
 title: "Tweet from Chat"
 description: "Never tweet from the wrong account again. Use the Abbot tweet skill to manage your company or team's Twitter account from chat."
 tags: [twitter]
-excerpt_image: https://user-images.githubusercontent.com/19977/127073042-60c19aee-62d2-4bea-ad6c-7028395defcc.png
+excerpt_image:
+    url: https://user-images.githubusercontent.com/19977/127073042-60c19aee-62d2-4bea-ad6c-7028395defcc.png
+    title: "That probably ended a career."
 author:
     avatar: https://2.gravatar.com/avatar/cdf546b601bf29a7eb4ca777544d11cd?s=160
     name: haacked
@@ -10,7 +12,7 @@ author:
 
 If you manage more than one Twitter account, whether it's for a project or a company's social media presence, you live with THE FEAR. That nagging fear that takes up residence in the back of your mind. The fear that one day, you *will* tweet something inappropriate from the wrong account. I've done it. Maybe you've done it. But lets all hope it's not as bad as what this person did:
 
-![Failed tweet from a StubHub account: Thank Frank it's Friday! Can't wait to get out of this stubsucking hell hole.](https://user-images.githubusercontent.com/19977/127176682-1410a4e4-e092-48b0-9653-b120f5e0d147.jpeg)
+![Failed tweet from a StubHub account: Thank Frank it's Friday! Can't wait to get out of this stubsucking hell hole.](https://user-images.githubusercontent.com/19977/127176682-1410a4e4-e092-48b0-9653-b120f5e0d147.jpeg "That probably ended a career.")
 
 _(image from [Gawker](https://gawker.com/5949503/the-social-media-director-at-stubhub-is-not-having-a-good-night))_
 

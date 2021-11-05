@@ -2,7 +2,9 @@
 title: "Introducing Patterns"
 description: "Patterns give Abbot the ability to respond to any message, not just commands."
 tags: [patterns,abbot]
-excerpt_image: https://user-images.githubusercontent.com/19977/139963499-5f0db4c3-a72e-4bad-8419-d1ac247c676c.jpeg
+excerpt_image:
+    url: https://user-images.githubusercontent.com/19977/139963499-5f0db4c3-a72e-4bad-8419-d1ac247c676c.jpeg
+    title: Puzzle image dedicated to the public domain by the author.
 author:
     avatar: https://2.gravatar.com/avatar/cdf546b601bf29a7eb4ca777544d11cd?s=160
     name: haacked

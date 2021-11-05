@@ -102,5 +102,3 @@ Run `@abbot help grafana` for general help with the skill, or `@abbot grafana he
 You can find the source for this skill on our [skills repository](https://github.com/aseriousbiz/abbot-skills/blob/main/skills/grafana.cs). If you have any issues or improvement suggestions, go ahead and open an issue or send us a pull request in that repository.
 
 Happy graphing!
-
-.

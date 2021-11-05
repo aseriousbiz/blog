@@ -65,6 +65,3 @@ bot.reply("Your string is {} characters long ({} words)".format(chars, words))
 ```
 
 [^2]: [read-eval-print-loop](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)
-
-
-

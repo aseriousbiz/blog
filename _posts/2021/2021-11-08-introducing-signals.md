@@ -11,7 +11,7 @@ author:
     name: haacked
 ---
 
-Signals are a new feature of [Abbot](https://ab.bot/) that enable you to compose skills together to create interesting automated workflows. Skill in Abbot can listen for and respond to signals raised by other skills. This provides a loosely coupled way for skills to trigger other skills within Abbot.
+Signals are a new feature of [Abbot](https://ab.bot/) that enable you to compose skills together to create interesting automated workflows. Skills in Abbot can listen for and respond to signals raised by other skills. This provides a loosely coupled way for skills to trigger other skills within Abbot.
 
 ![Four large antennas with a starry sky as the backdrop](https://user-images.githubusercontent.com/19977/140558101-23af87e2-3910-4962-bf3f-331f3950529b.jpeg "Abbot, are you out there? Image by José Francisco Salgado Licensed under CC BY 3.0 https://creativecommons.org/licenses/by/3.0/deed.en")
 

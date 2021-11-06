@@ -119,7 +119,7 @@ if (Bot.SignalEvent is {} signalEvent) {
 ```python
 # Python example of examining the root source of a signal chain
 
-if bot.signal_event is not None:
+if bot.signal_event:
     root_source = bot.signal_event.root_source
     reason = str(root_source.pattern) \
         if root_source.is_pattern_match else "chat" \

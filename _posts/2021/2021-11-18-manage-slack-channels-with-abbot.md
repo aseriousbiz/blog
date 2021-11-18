@@ -29,4 +29,8 @@ The usage pattern for each of these skills is the same:
 * `@abbot room-py archive #room` - Archives the specified room
 * `@abbot room-py invite #room @mention1 @mention2 ... @mentionN` - Invites the specified users to the specified room.
 
+Note that these samples are meant to demonstrate how to use the API, but they're only marginally useful as-is. Where the real power comes in is combining these APIs with [signals](https://blog.ab.bot/archive/2021/11/10/introducing-signals/) and [patterns](https://blog.ab.bot/archive/2021/11/03/introducing-patterns/) and other skills. For example, you could have an incident skill that raises a signal when a new Slack channel needs to be created for managing that incident. Another skill could subscribe to that skill and use the Rooms API to create a Slack channel in response.
+
+For fun, another thing you could do is have a pattern that changes the room topic in response to certain words being mentioned in chat.
+
 Give it a try and let us [know what you think](https://github.com/aseriousbiz/abbot-skills/issues)!

@@ -4,7 +4,7 @@ description: "We watch the red bubbles in Slack so you don’t have to!"
 tags: [abbot, channels, slack, product]
 excerpt_image:
     url: http://img.youtube.com/vi/rt37bpKtook/0.jpg
-    title: Manage and monitor Slack channels with Abbot!
+    title: Track conversations with Abbot
     alt: Abbot Conversations
 author:
     avatar: https://avatars.githubusercontent.com/u/18128948?s=400&u=c1e2800aa069189445ce05e50376ad53aa06a793&v=4

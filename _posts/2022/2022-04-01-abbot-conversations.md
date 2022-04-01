@@ -23,7 +23,7 @@ By adding Abbot to a channel, you can configure response time expectations, set 
 
 Abbot will ✨automagically✨ measure your team's performance and bandwidth across customer channels to help you identify when a certain account needs more attention or assistance. By reviewing Abbot’s detailed conversation insights and summary across all customer channels, you can make adjustments when needed to maintain smooth conversation flow with your customers.
 
-Each customer relationship is unique, so we’ve made Abbot flexible to allow teams to easily create customized conversation flows, so customers can self-serve when they're looking for help but within a format that works best for your team.
+Each customer relationship is unique, so we’ve made Abbot flexible to allow teams to easily create customized conversation flows. With these flows, customers can self-serve when they're looking for help but within a format that works best for your team.
 
 At the end of the day, conversations drive customer happiness. Abbot can help your team stay on top of shared channels, respond in a timely manner, and keep your customers happy. We are so excited to share Abbot with the world and improve the way teams support their customers in Slack. 
 

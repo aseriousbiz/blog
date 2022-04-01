@@ -11,7 +11,7 @@ author:
     name: grust101
 ---
 
-We are excited to share that Abbot now works alongside customer teams in Slack to manage shared channels and ensure conversations flow smoothly.
+Abbot now works alongside customer teams in Slack to manage shared channels and ensure conversations flow smoothly.
 
 [![Image of screenshot from a video about abbot](https://user-images.githubusercontent.com/18128948/161315857-562a8b69-e691-4f12-bc4a-c8d2f0e80c15.png)](http://www.youtube.com/watch?v=rt37bpKtook "Meet Abbot")
 

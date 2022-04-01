@@ -3,7 +3,7 @@ title: "Track conversations with Abbot"
 description: "We watch the red bubbles in Slack so you don’t have to!"
 tags: [abbot, channels, slack, product]
 excerpt_image:
-    url: http://img.youtube.com/vi/rt37bpKtook/0.jpg
+    url: https://user-images.githubusercontent.com/18128948/161315857-562a8b69-e691-4f12-bc4a-c8d2f0e80c15.png
     title: Track conversations with Abbot
     alt: Abbot Conversations
 author:

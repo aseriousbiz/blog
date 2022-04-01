@@ -1,5 +1,5 @@
 ---
-title: "Meet Abbot"
+title: "Track conversations with Abbot"
 description: "We watch the red bubbles in Slack so you don’t have to!"
 tags: [abbot, channels, slack, product]
 excerpt_image:http://img.youtube.com/vi/rt37bpKtook/0.jpg
@@ -13,7 +13,7 @@ author:
 
 We are excited to share that Abbot now works alongside customer teams in Slack to manage shared channels and ensure conversations flow smoothly.
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/rt37bpKtook/0.jpg)](http://www.youtube.com/watch?v=rt37bpKtook "Video Title")
+[![Screen Shot 2022-04-01 at 1 27 32 PM](https://user-images.githubusercontent.com/18128948/161315857-562a8b69-e691-4f12-bc4a-c8d2f0e80c15.png)](http://www.youtube.com/watch?v=rt37bpKtook "Video Title")
 
 Customers want answers quickly, and shared Slack channels are a great way to accomplish that. However, keeping track of dozens (or hundreds, AH!) of channels can make it difficult to give your customers an excellent experience. 
 
